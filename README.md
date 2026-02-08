@@ -1,5 +1,10 @@
 # PSSpinner
 
+[![Build Status](https://github.com/yourusername/PSSpinner/actions/workflows/tests.yml/badge.svg)](https://github.com/yourusername/PSSpinner/actions)
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/v/PSSpinner.svg)](https://www.powershellgallery.com/packages/PSSpinner)
+
+![PSSpinner Banner](PSSpinnerLogo.png)
+
 A small PowerShell helper that displays a CLI spinner while running a script block in the background.
 
 - Runs the provided `ScriptBlock` in a background runspace so the main thread can render a smooth spinner.
