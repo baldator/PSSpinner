@@ -41,7 +41,7 @@ jobs:
       env:
         NUGET_KEY: ${{ secrets.PSGALLERY_API_KEY }}
       run: |
-        $ModulePath = "./PSSpinner"
+        $ModulePath = "./"
         
         # Verify Manifest
         Test-ModuleManifest -Path "$ModulePath/PSSpinner.psd1"
