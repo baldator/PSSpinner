@@ -32,10 +32,6 @@
     # Minimum PowerShell version
     PowerShellVersion = '5.1'
 
-    FunctionsToExport = @(
-        'Invoke-Spinner'
-    )
-
     # Explicitly list files to include in the module package
     FileList = @(
         'PSSpinner.psd1',
