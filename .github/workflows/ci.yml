@@ -41,14 +41,10 @@ jobs:
       env:
         NUGET_KEY: ${{ secrets.PSGALLERY_API_KEY }}
       run: |
-        # create the release folder
-        New-Item -Path "./release" -ItemType Directory -Force
-        $ModulePath = "./release"
+
+        $ModulePath = "./"
 
         # copy the module files to the release folder
-        Copy-Item -Path "./Public/*" -Destination $ModulePath -Recurse -Force
-        Copy-Item -Path "./PSSpinner.psd1" -Destination $ModulePath -Force
-        Copy-Item -Path "./PSSpinner.psm1" -Destination $ModulePath -Force
         
         # Verify Manifest
         Test-ModuleManifest -Path "$ModulePath/PSSpinner.psd1"
