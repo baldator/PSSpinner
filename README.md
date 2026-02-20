@@ -1,9 +1,11 @@
 # PSSpinner
 
-[![Build Status](https://github.com/baldator/PSSpinner/actions/workflows/tests.yml/badge.svg)](https://github.com/baldator/PSSpinner/actions)
-[![PowerShell Gallery](https://img.shields.io/powershellgallery/v/PSSpinner.svg)](https://www.powershellgallery.com/packages/PSSpinner)
 
 ![PSSpinner Banner](PSSpinnerLogo.png)
+
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/baldator/PSSpinner/main.svg)](https://github.com/baldator/PSSpinner/commits/main)
+[![Build Status](https://github.com/baldator/PSSpinner/actions/workflows/ci.yml/badge.svg)](https://github.com/baldator/PSSpinner/actions)
+[![PowerShell Gallery](https://img.shields.io/powershellgallery/v/PSSpinner.svg)](https://www.powershellgallery.com/packages/PSSpinner)
 
 A small PowerShell helper that displays a CLI spinner while running a script block in the background.
 
