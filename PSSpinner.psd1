@@ -36,7 +36,7 @@
     FileList = @(
         'PSSpinner.psd1',
         'PSSpinner.psm1',
-        'Public/Invoke-Spinner.ps1',
+        'Public/Invoke-Spinner.ps1'
     )
 
     PrivateData = @{
