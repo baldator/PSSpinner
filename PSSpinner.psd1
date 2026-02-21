@@ -49,9 +49,6 @@
             ProjectUri = 'https://github.com/Baldator/PSSpinner'
             ReleaseNotes = 'Added timeout functionality to Invoke-Spinner. If the ScriptBlock does not complete within the specified timeout, the spinner will stop and a TimeoutException will be thrown.'
 
+        }
     }
-
-
-
-
 }
